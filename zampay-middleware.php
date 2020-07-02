@@ -7,4 +7,7 @@ $Shortcode = 'marchant shortcode';
 
 $zampay_api_user = $ConversationID . ':' . $ThirdPartyID . ':' .  $Password . ':' .  $Shortcode;
 
+
+
+
 ?>
