@@ -16,7 +16,7 @@ $curl = curl_init();
     curl_setopt($CURL, CURLOPT_TIMEOUT, 0); 
     curl_setopt($CURL, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($CURL, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1); 
- curl_setopt($CURL, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($CURL, CURLOPT_CUSTOMREQUEST, "POST");
 
 
 $response = curl_exec($curl);
